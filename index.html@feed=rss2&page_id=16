@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comentários sobre: Notícias</title>
+	<atom:link href="http://www.wilivro.com.br/interacao/bemreceber/?feed=rss2&#038;page_id=16" rel="self" type="application/rss+xml" />
+	<link>http://www.wilivro.com.br/interacao/bemreceber</link>
+	<description>Só mais um blog do WordPress</description>
+	<lastBuildDate>Sat, 14 Feb 2015 12:23:52 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.9.1</generator>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+		<item>
+		<title>Por: Adriano José de França</title>
+		<link>http://www.wilivro.com.br/interacao/bemreceber/?page_id=16&#038;cpage=1#comment-91</link>
+		<dc:creator>Adriano José de França</dc:creator>
+		<pubDate>Tue, 09 Jun 2009 00:19:06 +0000</pubDate>
+		<guid isPermaLink="false">http://www.wilivro.com.br/interacao/bemreceber/?page_id=16#comment-91</guid>
+		<description>É O QUE TODAS AS EMPRESAS PROCURAM TER É A &quot;QUALIDADE&quot; NO ATENDIMENTO, OU EM QUALQUER ÁREA POIS ELA É O PONTO FUNDAMENTAL PARA O SUCESSO.
+NAZARÉ DA MATA</description>
+		<content:encoded><![CDATA[<p>É O QUE TODAS AS EMPRESAS PROCURAM TER É A &#8220;QUALIDADE&#8221; NO ATENDIMENTO, OU EM QUALQUER ÁREA POIS ELA É O PONTO FUNDAMENTAL PARA O SUCESSO.<br />
+NAZARÉ DA MATA</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Por: Ceça Doblin</title>
+		<link>http://www.wilivro.com.br/interacao/bemreceber/?page_id=16&#038;cpage=1#comment-85</link>
+		<dc:creator>Ceça Doblin</dc:creator>
+		<pubDate>Fri, 29 May 2009 00:08:46 +0000</pubDate>
+		<guid isPermaLink="false">http://www.wilivro.com.br/interacao/bemreceber/?page_id=16#comment-85</guid>
+		<description>O TURISMO É UMA DAS ATIVIDADES QUE MAIS GERA EMPREGO E RENDA NO MUNDO, PORTANTO, VALE A PENA INVESTIR NA CAPACITAÇÃO E QUALIFICAÇÃO DAS PESSOAS PARA ATUAR NO RAMO.
+PARABÉNS AO ÓRGÃOS LIGADOS AO TURISMO POR ESSA INICIATIVA!
+     CEÇA DOBLIN, ALUNA DO CURSO.</description>
+		<content:encoded><![CDATA[<p>O TURISMO É UMA DAS ATIVIDADES QUE MAIS GERA EMPREGO E RENDA NO MUNDO, PORTANTO, VALE A PENA INVESTIR NA CAPACITAÇÃO E QUALIFICAÇÃO DAS PESSOAS PARA ATUAR NO RAMO.<br />
+PARABÉNS AO ÓRGÃOS LIGADOS AO TURISMO POR ESSA INICIATIVA!<br />
+     CEÇA DOBLIN, ALUNA DO CURSO.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
