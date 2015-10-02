@@ -1,0 +1,553 @@
+/*
+Theme Name: Fluid Blue
+Theme URI: http://srinig.com/wordpress/themes/fluid-blue/
+Description: A simple two column fluid width theme. Right sidebar supports widgets. Tags and gravatars supported. Valid XHTML and CSS.
+Version: 1.6.1
+Author: Srini G
+Author URI: http://srinig.com/wordpress
+Tags: fluid width, variable width, blue, two columns, right sidebar, widgets, graphics free, simple, valid CSS, valid XHTML
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+body {
+	margin:0 auto;
+	background:#fff;
+	color:#444;
+	font-size: 62.5%; /* Resets 1em to 10px */
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align:center;
+}
+
+a { 
+	/*color:#004F00;*/
+	color:#8A4;
+	text-decoration:none;
+}
+
+a:hover {
+	/*font-weight:;*/
+	font:italic;
+	font-style:italic;
+	text-decoration:underline;
+	color:#224400;
+}
+
+h1, h1 a, h2, h2 a, h3, h4, h5, h6 {
+	margin-bottom:0;
+	/*color:#27a;*/
+	color:#8A4;
+	text-align:left;
+}
+
+h1 {font-size:2.6em;}
+h2 {font-size:2em;}
+h3 {font-size:1.6em;}
+h4 {font-size:1.2em;}
+h5 {font-size:1em;}
+h6 {font-size:0.8em;}
+
+
+img {
+	border:0;
+}
+
+input {
+	font-size:1.2em;
+}
+
+input[type=text], textarea{
+	background:#fff;
+	border:1px inset #aaa;
+}
+input[type=submit] {
+	background:#eee;
+	border:1px outset #aaa;
+}
+
+textarea {
+	font-size:12px;
+}
+/*******************************TEXTOS DAS PAGINAS**********************************************/
+/*texto titulo 1*/
+#txtT1{
+	color: #462;
+	font-family: Arial;
+	margin-bottom:0;
+	text-align:left;
+	font-size:18px;
+	font-weight:bold;
+}
+/*texto titulo 2*/
+#txtT2{
+	mso-bidi-font-weight: normal;
+	color: #000000;
+	font-family:Arial;
+	font-size: 12pt;
+	font-weight:bold;
+}
+/*texto conteudo*/
+#txtC{
+	mso-bidi-font-weight: normal;
+	color: #000000;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+
+pre {
+	font-size:12px;
+}
+code {
+	font-size:12px;
+	background-color:#f8f8f8;
+	color:#33FF33;
+}
+
+/* Layout */
+#page {
+	min-width:790px;
+	max-width:790px;
+	width:790px;
+	margin:0 auto;
+	text-align:left;
+}
+
+#wrapper {
+	/*margin:0 5%;*/
+	padding-right:230px;
+}
+
+#content{
+	float:right;
+	width:90%;
+	border-right:230px solid #FFF;
+	margin-right:-480px;
+	padding:20px 4% 20px 34px;
+
+}
+
+#sidebar{
+	float:left;
+	width:190px;
+	margin:0 -230px 0 0;
+	padding:20px;
+	background-color:#fff;
+	/*background-color:#EEE9D5;
+	color:#91932F;*/
+	color:#900;	
+}
+
+#footer {
+	clear:both;
+	padding:10px;
+	border-top:0.2em solid #555;
+}
+
+/* Header */
+
+#header {
+	margin:0 auto;
+	padding:0em 0;
+	height:4.8em;
+	background:#fff;
+	background-image:url(Blog_Topo.jpg);
+	background-repeat:no-repeat;
+	height:192px;
+	width:790px;
+}
+/******************************BANNER*******************************************/
+#bannerTopo{
+	position:relative;
+	top:0px;
+	left:400px;
+	width:375px;
+	height:130px;
+}
+#bannerLateral{
+	position:relative;
+	bottom:10px;
+	right:10px;
+	width:200px;
+	height:130px;
+}
+#logos_Lateral{
+	position:relative;
+	bottom:30px;
+	right:10px;
+	width:200px;
+	height:130px;
+}
+
+#headertitle {
+	float:left;
+	position:absolute;
+	top:2.4em;
+	left:5%;
+}
+#headertitle h1 {
+	margin:0;
+}
+#headertitle h1 a {
+	background:transparent;
+	color:#fff;
+}
+#headertitle h1 a:hover {
+	text-decoration:none;
+}
+
+#headertitle p {
+	margin:0;
+	background:transparent;
+	color:#fff;
+	font-size:1.1em;
+}
+
+.search {
+	float:right;
+	position:relative;
+	padding:0 0 0 0;
+	top:142px;
+	right:40px;
+	
+}
+.search form<.search{
+	
+}
+.search form {
+	position:relative;
+	margin:0;
+	padding:0;
+}
+.search input {
+	display:inline;
+	width:180px;
+	border:1px solid #CCCCCC;
+	margin:0;
+	padding:0 0 0 0;
+	background: #FFFFFF;
+	color:#003300;
+	/*background: #E3DABB;
+	color: #313416;*/
+	font-size:1.2em;
+}
+.search-but {
+	float:right;
+	position:relative;
+	top:142px;
+	left:174px;
+	padding:0 0 0 0;
+}
+
+/* Top navigation */
+
+#hmenu {
+	border-top:0.1em solid #FFCC00;
+	border-bottom:0.1em solid #FFCC00;
+	/*background:#165279;*/
+	background-color:#FFCC44;
+}
+
+#hmenu ul {
+	margin:0 5%;
+	padding:0.5em 0;
+	/*background:#165279*/;
+	background-color:#FFCC44;
+	/*list-style-type:none;
+	list-style-position:outside;*/
+	text-indent:0;
+}
+
+#hmenu ul li {
+	display:inline;
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
+	font-size:12px;
+}
+
+#hmenu ul li:before {
+	content: "| \0020";
+	background:transparent;
+/*	color:#eee;*/
+	color:#99FF00;
+}
+#hmenu ul li.hmenu1:before {
+	content: "";
+
+}
+#hmenu ul li a {
+	padding:0 0 0 0;
+	margin:0;
+	background:transparent;
+	color:#c6c8c9;
+	text-decoration:none; 	
+}
+
+#hmenu ul li.hmenu1 a {
+	padding-left:0;
+	
+}
+
+#hmenu ul li a:hover {
+	background:transparent;
+/*	color:#60CC40;  DO MARIO*/
+	color:#FFFFFF;
+}
+
+/* Sidebar **************************************************************************/
+.menu_lateral{
+	color:#779922;
+	font-size:12px;
+	font-weight:bold;
+	position:relative;
+	bottom:20px;
+}
+.seta{
+	font-family:Cezanne;
+	color:#DDDD00;
+}
+
+.areaTabela{
+	border-color:#CCC;
+}
+#sidebar ul {
+	padding:0;
+	margin:0;
+	list-style: none;
+	font-size:1.1em;
+
+}
+#sidebar ul ul {
+	font-size:1em;
+
+}
+
+#sidebar ul li {
+	margin:0 0 2em 0;
+
+}
+
+#sidebar ul ul {
+	margin:0;
+	padding:0;
+
+}
+
+#sidebar li li {
+	margin:0.1em 0;
+
+}
+
+#sidebar li li li {
+	padding-left:10px;
+
+}
+
+#sidebar ul h2 {
+	margin:0;
+	padding:0;
+	color:#8A4;
+	/*color:#3E421C;*/
+	font-size:1.2em;
+	text-transform:uppercase;
+}
+
+
+/* Footer */
+#footer { 
+	border-top:0.2em solid #FFCC33;
+	/*border-bottom:0.2em solid #FFCC33;*/
+	text-align:center;
+	font-size:1em;
+	background:#559922;
+	/*color:#EFEBDA;*/
+	color:#CCDD88;
+	
+}
+
+#footer a {
+	color:#FF9;
+}
+
+/* Post */
+.post {
+	margin:0 0 4em 0;
+	clear:both;
+}
+
+.post p, .post ol li, .post ul li{
+	margin-top:0;
+	font-size:1.2em;
+	line-height:1.5em;
+	text-align:justify;
+}
+.post li li {
+	font-size:1em;
+}
+.post blockquote {
+	padding:0 0 0 2em;
+	border-left:0.4em solid #ccc;
+	font-size:0.9em;
+}
+.post blockquote blockquote {
+	margin-left:0;
+	font-size:1em;
+}
+
+.postentry a {
+	border-bottom:1px solid #ddd;
+}
+.postentry a:hover {
+	border-bottom:1px solid #258;
+	text-decoration:none;
+}
+
+.postmetadata {
+	clear:both;
+	margin:1em 0;
+	font-size:1.1em;
+	color:#888;
+	text-align:justify;
+}
+
+div.navigation {
+	font-size:1.1em;
+}
+
+/* Comments */
+
+#comments {
+	margin:0 2em;
+}
+
+.commentlist {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.commentlist li {
+	padding:2em 0;
+	overflow:auto;
+	border-bottom:0.1em solid #eee;
+}
+
+.commentlist p {
+	margin:0.5em 0;
+	font-size:1.1em;
+}
+
+.commentlist p a {
+	border-bottom:1px solid #ddd;
+}
+.commentlist p a:hover {
+	border-bottom:1px solid #157;
+	text-decoration:none;
+}
+.commentlist img.avatar {
+	float: right; margin: 10px 0 0 10px; padding: 3px; border:1px solid #eee;
+}
+.commentlist h4 {
+	margin:0;
+}
+
+textarea#comment {
+	font-size:1.6em;
+	width:100%;
+}
+#submit {
+	background-color:#448800;
+	color:#FFFF99;
+	border-width: 2px 2px 2px 2px;
+	border-color:#FFCC33;
+}
+
+/* Comment ends */
+
+/* Calendar */
+#wp-calendar caption {
+	text-transform:uppercase;
+	font-weight:bold;
+	/*color:#27a;*/
+	color:#414714;
+	text-align:center;
+}
+
+#wp-calendar thead th {
+	font-weight:normal;
+	/*color:#27a;*/
+	font-weight:bold;
+	color:#005300;
+	text-align:center;
+}
+#wp-calendar tbody td {
+	text-align:center;
+	color:#004F00;
+}
+#wp-calendar tbody td a {
+	font-weight:bold;
+}
+#wp-calendar tbody td.pad {
+	border:none;
+}
+/* Calendar ends */
+
+abbr {
+	cursor:help;
+	border-bottom: 0.1em dotted;
+}
+
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.alignleft {
+   float: left;
+   margin: 5px 5px 5px 0;
+}
+
+.alignright {
+   float: right;
+   margin: 5px 0 5px 5px;
+}
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+}
+/*ENFEITES DE NATAL*/
+#cartao {
+	position: absolute;
+	text-align:center;
+	z-index: 99;
+	top: 150px;
+	left: 250px;
+	width:800px;
+	height:600px;	
+}
+
+.muda {
+	z-index:0;
+}
